@@ -1,3 +1,7 @@
+html{
+    overflow-x:hidden ;
+}
+
 .premier {
     width: 100vw;
     height: 65vh;

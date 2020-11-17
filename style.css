@@ -1,5 +1,6 @@
 html{
     overflow-x:hidden ;
+    scroll-behavior: smooth;
 }
 
 .premier {
@@ -7,8 +8,9 @@ html{
     height: 65vh;
 }
 
-html {
-    scroll-behavior: smooth;
+.imgprojet{
+    height: 100%;
+    width: 100%;
 }
 
 .btn-circle {
@@ -39,10 +41,14 @@ html {
     border-radius: 35px;
 }
 
-@media screen and (min-height: 769px) {
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
     .imgprojet{
-        height: 302px;
+        height: 100%;
         width: 100%;
+    }
+    .navbar {
+        font-size:36px;
     }
 }
 

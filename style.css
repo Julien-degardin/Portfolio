@@ -47,7 +47,12 @@ html{
         height: 100%;
         width: 100%;
     }
-    .navbar {
+
+    .navbar-brand{
+        font-size: 36px;
+    }
+
+    .nav-item{
         font-size:36px;
     }
 }

@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="">
+    <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="Ajout du scrollspy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitefr.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitefr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -85,8 +85,16 @@
       <workItem from="1605614101476" duration="5404000" />
       <workItem from="1605689419464" duration="3539000" />
       <workItem from="1606467825050" duration="78000" />
-      <workItem from="1606912561947" duration="368000" />
+      <workItem from="1606912561947" duration="1425000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout du scrollspy">
+      <created>1606912992767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606912992767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Ajout du scrollspy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du scrollspy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606467899997">
@@ -113,6 +123,10 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606467899997" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605543579271" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606913017790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606913017790" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604601285512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

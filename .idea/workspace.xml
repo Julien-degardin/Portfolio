@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitefr.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitefr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Ecole S3/APA/Projet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test Symfony/test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +82,10 @@
       <workItem from="1605011577286" duration="2651000" />
       <workItem from="1605529198789" duration="137000" />
       <workItem from="1605543559491" duration="22000" />
-      <workItem from="1605614101476" duration="5263000" />
+      <workItem from="1605614101476" duration="5404000" />
+      <workItem from="1605689419464" duration="3539000" />
+      <workItem from="1606467825050" duration="78000" />
+      <workItem from="1606912561947" duration="368000" />
     </task>
     <servers />
   </component>
@@ -91,14 +102,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605543579271">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606467899997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606467899997" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605543579271" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604601285512">
       <screen x="0" y="0" width="1920" height="1040" />

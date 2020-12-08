@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="Alignement de la flèche circulaire">
+    <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="Ajout des boutons menus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/DEGARDIN_Julien.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sitefr.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitefr.html" afterDir="false" />
@@ -90,7 +90,8 @@
       <workItem from="1606912561947" duration="2204000" />
       <workItem from="1607180647531" duration="25000" />
       <workItem from="1607326527054" duration="7151000" />
-      <workItem from="1607428882538" duration="4887000" />
+      <workItem from="1607428882538" duration="5029000" />
+      <workItem from="1607441964881" duration="3489000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout du scrollspy">
       <created>1606912992767</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607334374044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajout des boutons menus">
+      <created>1607433905262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607433905262</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +151,8 @@
     <MESSAGE value="Ajout du scrollspy" />
     <MESSAGE value="Alignement de la flèche circulaire" />
     <MESSAGE value="Ajout du CV en PDF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du CV en PDF" />
+    <MESSAGE value="Ajout des boutons menus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des boutons menus" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607180666751">
@@ -151,10 +160,10 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607180666751" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605543579271" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607334378204">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607433909827">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606914164202" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607433909827" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607334378204" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604601285512">
       <screen x="0" y="0" width="1920" height="1040" />

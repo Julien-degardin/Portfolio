@@ -19,22 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="Ajout des boutons menus">
-      <change afterPath="$PROJECT_DIR$/images/Pygame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/arduino-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cameleon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/intellij.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/marathon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/office.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/phpstorm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/qt-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menus" afterDir="false" />
+    <list default="true" id="a8a12282-1c77-4370-8ee3-9e1f2ea0017e" name="Default Changelist" comment="Page FR terminée mais à paufiner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/CVimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/CVimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/CVimg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/CVimg2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bgflou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bgflou.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitefr.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitefr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +97,7 @@
       <workItem from="1609501007704" duration="3760000" />
       <workItem from="1609514576979" duration="2443000" />
       <workItem from="1609520415949" duration="9308000" />
-      <workItem from="1609583413078" duration="19305000" />
+      <workItem from="1609583413078" duration="20609000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout du scrollspy">
       <created>1606912992767</created>
@@ -154,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607446114525</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Page FR terminée mais à paufiner">
+      <created>1609608181829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609608181829</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +172,8 @@
     <MESSAGE value="Alignement de la flèche circulaire" />
     <MESSAGE value="Ajout du CV en PDF" />
     <MESSAGE value="Ajout des boutons menus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des boutons menus" />
+    <MESSAGE value="Page FR terminée mais à paufiner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page FR terminée mais à paufiner" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609598137888">
@@ -190,10 +185,10 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607983843196" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605543579271" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607446235212">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609608189959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607446235212" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609608189959" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607334378204" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609532952747">
       <screen x="0" y="0" width="1920" height="1040" />

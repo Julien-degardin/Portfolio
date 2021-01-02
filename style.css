@@ -1,11 +1,29 @@
-html{
-    overflow-x:hidden ;
+html
+{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
-.premier {
-    width: 100vw;
-    height: 65vh;
+.titre{
+    font-family: 'Acme', sans-serif;
+}
+
+.sous-titre{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.texte{
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+}
+
+
+#banner {
+    background: url("images/bgflou.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
 }
 
 .imgprojet{
@@ -41,10 +59,24 @@ html{
     border-radius: 35px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 575px) and (max-width: 991px) {
     .imgprojet{
         height: 100%;
         width: 100%;
+    }
+
+    #qualites{
+        height: 25vh !important;
+    }
+
+
+    body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
     }
 
     .navbar-brand{
@@ -152,14 +184,23 @@ html{
 
 .divmenu{
     display: flex;
-    width: 75%;
-    margin : -10% auto 0 auto;
-    justify-content: space-around;
+    width: 100%;
+    margin : -15% 0 0 0;
 }
 
 .menu {
     width: 0px;
     transform: translate(-50%, 55%);
+}
+
+#m1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#m2{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .toggle {
@@ -316,19 +357,35 @@ html{
     margin: 1rem!important;
 }
 
-.fa-java{
-    margin: 1rem 0 1.1rem 1.1rem !important;
+.fa-java, .fa-linux{
+    margin: 1rem 0 0 0 !important;
 }
 
 .fa-html5, .fa-css3-alt{
     margin: 1rem 1rem 1rem 1.2rem !important;
 }
 
-.fa-js-square{
+.fa-js-square, .fa-windows, .fa-trello{
     margin-top: 0.8rem!important;
-    margin-left: 0.9rem!important;
 }
 
 .fa-php {
     margin: 1rem 1rem 1rem 0.55rem !important;
+}
+
+
+
+#intellij{
+    width:65%;
+    margin-top: 0.8rem;
+}
+
+#phpstorm{
+    width:65%;
+    margin-top: 0.8rem;
+}
+
+#office{
+    width:65%;
+    margin-top: 0.8rem;
 }

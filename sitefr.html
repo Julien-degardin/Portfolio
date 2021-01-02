@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+
     <!-- <link rel="stylesheet" href="http://localhost:3002/dist/aos.css" /> -->
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -65,46 +71,44 @@
     </div>
 </nav>
 
-<div class="container-fluid" style="padding: 0;">
-    <div class="row mt-5 mb-3" id="top">
-        <div class="col-md-12" style="padding: 0;">
-            <img alt="coding" src="images/bgflou.jpg" class="img-fluid premier">
-            <div class="carousel-caption" style="top:27%">
-                <h1 data-aos="zoom-in" style="font-size: 80px">Bienvenue</h1>
-                <h2 data-aos="fade-up" data-aos-delay="600" style="font-size: 58px">sur mon portfolio</h2>
+<header id="banner" class="masthead d-flex">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="text-center col">
+                <div class="text-white titre" style="font-size: 90px">Bienvenue</div>
+                <div class="text-white titre" style="font-size: 64px" >Sur mon portfolio</div>
             </div>
         </div>
     </div>
-    <h1 class="text-center mt-5" style="color:midnightblue">Commençons la visite :)</h1>
-    <br>
+</header>
+<div class="container-fluid">
+    <h1 class="text-center mt-5 sous-titre" style="color:midnightblue">Commençons la visite :)</h1>
     <br>
     <br>
     <div class="text-center">
-        <a href="#section1" class="btn btn-circle btn-xl" style="font-size: xx-large; color: white; background-color: midnightblue; margin-left: -1%">↓</a>
+        <a href="#section1" class="btn btn-circle btn-xl" style="font-size: xx-large; color: white; background-color: midnightblue; margin-left: -1.30%">↓</a>
     </div>
 </div>
 
 <div id="section1"></div>
 
-<div class="container-fluid" style="margin-top: 10%">
+<div class="container-fluid" style="margin-top: 10%;">
     <div class="row" style="background-color: midnightblue; color:white; height: 50vh">
         <div class="col-md-12" style="padding: 4% 0 0 0; margin-bottom: -5%; height: 5vh">
-            <h1 class="text-center">Qui suis-je ?</h1>
+            <h1 class="text-center sous-titre">Qui suis-je ?</h1>
             <hr class="light" style="border-color: white; width: 7%">
         </div>
         <div class="col-md-4 text-center mt-5">
             <div class="mx-auto">
                 <h3 class="fa fa-4x fa-user"></h3>
-                <br>
-                <h2>Julien Dégardin</h2>
+                <h2 class="texte">Julien Dégardin</h2>
             </div>
         </div>
 
         <div class="col-md-4 text-center mt-5">
             <div class="mx-auto">
-                <h3 class="fa fa-4x fa-book"></h3>
-                <br>
-                <h2>Développeur Junior
+                <h3 class="fa fa-4x fa-book" style="margin-right: 4% !important;"></h3>
+                <h2 class="texte">Développeur Junior
                 <br>
                 Etudiant en Informatique</h2>
             </div>
@@ -113,19 +117,18 @@
         <div class="col-md-4 text-center mt-5">
             <div class="mx-auto">
                 <h3 class="fa fa-4x fa-map-pin"></h3>
-                <br>
-                <h2>A 15min d'Arras</h2>
+                <h2 class="texte">A 15min d'Arras</h2>
             </div>
         </div>
     </div>
 </div>
 
-<div id="section2" style="background-color: dodgerblue; height: 5vh"></div>
+<div id="section2" style="background-color: dodgerblue; height: 5vh;"></div>
 
 <div class="container-fluid">
-    <div class="row" style="background-color: dodgerblue; color:white; height: 50vh">
+    <div class="row" style="background-color: dodgerblue; color:white; height: 50vh; margin-top: -2%">
         <div class="col-md-12" style="padding: 2% 0 0 0; margin-bottom: -5%; height: 5vh">
-            <h1 class="text-center">Ma formation</h1>
+            <h1 class="text-center sous-titre">Ma formation</h1>
             <hr class="light" style="border-color: white; width: 7%">
         </div>
 
@@ -135,8 +138,8 @@
                     <img alt="coding" src="images/lycee2.jpg" class="img-thumbnail">
                 </a>
                 <br>
-                <h2>Bac S Sciences de l'Ingénieur</h2>
-                <h4>Lycée Gambetta-Carnot Arras</h4>
+                <h2 class="texte">Bac S Sciences de l'Ingénieur</h2>
+                <h4 class="texte">Lycée Gambetta-Carnot Arras</h4>
             </div>
         </div>
 
@@ -146,121 +149,139 @@
                     <img alt="coding" src="images/iut.jpg" class="img-thumbnail">
                 </a>
                 <br>
-                <h2>DUT Informatique</h2>
-                <h4>IUT de Lens</h4>
+                <h2 class="texte">DUT Informatique</h2>
+                <h4 class="texte">IUT de Lens</h4>
 
             </div>
         </div>
     </div>
 </div>
 
-<div id="section3" style="background-color: #1e90ff; height: 5vh"></div>
+<div id="section3" style="background-color: #1e90ff; height: 5vh; margin-top: -2%"></div>
 
-<div class="row" style="background-color: #87CEFA; color:white; height: 60vh">
-    <div class="col-md-12" style="padding: 4% 0 0 0;  height: 5vh">
-        <h1 class="text-center">Mes qualités</h1>
-        <hr class="light" style="border-color: white; width: 7%">
+<div class="container-fluid" style="padding: 0">
+    <div id="qualites" class="row" style="background-color: #87CEFA; color:white; height: 60vh;margin-bottom: -8%">
+        <div class="col-md-12" style="padding: 2% 0 0 0;  height: 5vh">
+            <h1 class="text-center sous-titre">Mes qualités <br>et compétences</h1>
+            <hr class="light" style="border-color: white; width: 9%">
+        </div>
     </div>
 
-    <div class="divmenu col-md-12">
-        <div class='menu'>
-            <input class='toggle' id='menu' type='checkbox'>
-            <label class='style' for='menu'>
-                <i class="fas fa-laptop-code fa-lg" aria-hidden="true"></i>
-            </label>
-            <a class='tab' href='#'>
-                <i class="fab fa-python fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-html5 fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-css3-alt fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-java fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-js-square fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-php fa-3x phpicon"></i>
-            </a>
+    <div class="row divmenu d-flex flex-wrap justify-content-around text-center" style="background-color: #87CEFA; color:white;">
+        <div class="col-md-3  d-md-none d-lg-flex">
+            <div id="m1" class='menu'>
+                <input class='toggle' id='menu' type='checkbox'>
+                <label class='style' for='menu'>
+                    <i class="fas fa-laptop-code fa-lg" aria-hidden="true"></i>
+                </label>
+                <a class='tab'>
+                    <i class="fab fa-python fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-html5 fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-java fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-js-square fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-php fa-3x phpicon"></i>
+                </a>
+            </div>
         </div>
-        <div class='menu'>
-            <input class='toggle' id='menu2' type='checkbox'>
-            <label class='style' for='menu2'>
-                <i class="fas fa-tools fa-lg" aria-hidden="true"></i>
-            </label>
-            <a class='tab' href='#'>
-                <i class="fab fa-python fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-html5 fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-css3-alt fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-java fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-js-square fa-3x"></i>
-            </a>
-            <a class='tab' href='#'>
-                <i class="fab fa-php fa-3x phpicon"></i>
-            </a>
-
+        <div class="col-md-2">
+            <div style="display: inline-block;">
+                <h2 class="fa-3x far fa-hand-rock"></h2>
+                <h3 class="texte">La persévérance</h3>
+                <h5 class="texte text-center">
+                    Je sais surmonter les problèmes et je ne m'arrête pas à la première difficulté rencontrée
+                </h5>
+            </div>
         </div>
-        <!-- menu -->
-        <div class='menu'>
-            <input class='toggle' id='menu3' type='checkbox'>
-            <label class='style' for='menu3'>
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </label>
-            <a class='tab' href='#'>
-                <p>I</p>
-            </a>
-            <a class='tab' href='#'>
-                <p>II</p>
-            </a>
-            <a class='tab' href='#'>
-                <p>III</p>
-            </a>
-            <a class='tab' href='#'>
-                <p>IV</p>
-            </a>
-            <a class='tab' href='#'>
-                <P>V</P>
-            </a>
-            <a class='tab' href='#'>
-                <P>VI</P>
-            </a>
-        </div><!-- menu -->
+        <div class="col-md-2">
+            <div style="display: inline-block;">
+                <h2 class="fa-3x fas fa-tasks"></h2>
+                <h3 class="texte">La rigueur</h3>
+                <h5 class="texte text-center">
+                    J'aime produire des contenus respectant les normes et les conditions posées
+                </h5>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div style="display: inline-block;">
+                <img src="images/cameleon.png" width="25%" style="margin-bottom: 3%">
+                <h3 class="texte">L'adaptabilité</h3>
+                <h5 class="texte text-center">
+                    Je sais m'adapter aux nouvelles techniques et les appliquer
+                </h5>
+            </div>
+        </div>
+        <div class="col-md-3  d-md-none d-lg-flex">
+            <div id="m2" class='menu'>
+                <input class='toggle' id='menu2' type='checkbox'>
+                <label class='style' for='menu2'>
+                    <i class="fas fa-tools fa-lg" aria-hidden="true"></i>
+                </label>
+                <a class='tab'>
+                    <img id="intellij" src="images/intellij.png">
+                </a>
+                <a class='tab'>
+                    <img id="phpstorm" src="images/phpstorm.png">
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-windows fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-linux fa-3x"></i>
+                </a>
+                <a class='tab'>
+                    <img id="office" src="images/office.png">
+                </a>
+                <a class='tab'>
+                    <i class="fab fa-trello fa-3x"></i>
+                </a>
+            </div>
+        </div>
     </div>
-
 </div>
 
-<div id="section4" style="background-color: white; height: 5vh"></div>
+<div id="section4" style="background-color: white; height: 5vh; margin-top: 12%"></div>
 
 <div class="container-fluid">
     <div class="row" style="height: fit-content">
         <div class="col-md-12" style="padding: 2% 0 0 0; height: 5vh">
-            <h1 class="text-center">Mes projets</h1>
+            <h1 class="text-center sous-titre">Mes projets</h1>
             <hr class="light" style="border-color: black; width: 7%">
         </div>
 
         <div class="col-md-6" style="padding: 2% 0 0 0; height: fit-content">
             <div class="mx-auto" data-aos="flip-right" data-aos-duration="1000" style="margin: 8% 0 0 0; background-color: dodgerblue">
-                <h2 class="text-center" style="padding-top: 3%; color:white;">Armoire à produits chimiques</h2>
-                <h4 class="text-left"  style="padding-top: 2%; padding-left: 2%; margin-right: 5%; color:white;"> &emsp; &emsp; Pour notre projet d'Informatique et Sciences du Numérique, nous avons créé une armoire à produits
-                    chimiques sécurisée à l'aide d'un digicode.
+                <h2 class="text-center sous-titre" style="padding-top: 3%; color:white;">Armoire à produits chimiques</h2>
+                <h4 class="text-left mx-5 texte"  style="padding-top: 2%; padding-left: 2%; color:white; line-height: 140%;">
+                    Pour notre projet d'Informatique et Sciences du Numérique, nous avions choisi d'élaborer une armoire à produits chimiques
+                    sécurisée à l'aide d'un digicode. On avait la possibilité d'ajouter
+                    des produits à l'aide d'un lecteur de code-barres et d'un lecteur RFID.
                 </h4>
                 <br>
                 <br>
                 <br>
                 <br>
-                <br>
+                <h4 class="text-left mx-5"  style="padding-top: 2%; padding-left: 2%; color:white; line-height: 140%;">
+                        <div class="d-flex flex-row justify-content-around texte">Technologies utilisées :
+                            <div class="mr-3"><a style="text-decoration: none; color: white" href="https://nodejs.org/fr/"><h1 class="fa-2x fab fa-node"></h1></a></div>
+                            <div><a style="text-decoration: none; color: white" href="https://fr.wikipedia.org/wiki/HTML5"><h1 class="fab fa-html5" style="margin:0 !important;"></h1></a></div>
+                            <div><a style="text-decoration: none; color: white" href="https://developer.mozilla.org/fr/docs/Web/JavaScript"><h1 class="fab fa-js-square" style="margin:0 !important;"></h1></a></div>
+                            <div class="ml-3"><a href="https://arduino.cc/">
+                                <img src="images/arduino-logo.png" width="60px;" height="40px">
+                            </a>
+                            </div>
+                        </div>
+                </h4>
                 <br>
             </div>
         </div>
@@ -269,51 +290,81 @@
             <img src="images/arm_ext.jpg" alt=" Projet Armoire" class="img-fluid imgprojet">
         </div>
     </div>
-    <div class="row" style="height: fit-content">
-        <div class="col-md-6" style="margin: 0 0 0 0; padding: 0">
-            <img src="images/portal1.png" alt=" Projet Portal2D" class="img-fluid imgprojet">
+    <div class="row" style="height: fit-content; background-color: dodgerblue;margin-top: -1%">
+        <div class="col-md-6 m-auto">
+            <img src="images/portal1.png" alt=" Projet Portal2D" class="img-fluid ml-2">
         </div>
 
         <div class="col-md-6" style="padding: 0; height: fit-content">
             <div class="mx-auto" data-aos="flip-left" data-aos-duration="1000" style="margin: 0; background-color: dodgerblue">
-                <h2 class="text-center" style="padding-top: 3%; color:white;">Portal2D en Python</h2>
-                <h4 class="text-left"  style="padding-top: 2%; padding-left: 2%; margin-right: 5%; color:white;"> &emsp; &emsp; Pour notre projet de fin de
-                    première année, nous avons codé en Python un jeu basé sur l'univers de Portal.
+                <h2 class="text-center sous-titre" style="padding-top: 3%; color:white;">Portal2D en Python</h2>
+                <h4 class="text-left mx-5 texte"  style="padding-top: 2%; padding-left: 2%; color:white; line-height: 140%;">
+                    Pour notre projet de fin de première année de DUT Informatique, nous devions coder un jeu
+                    de plateformes basé sur l'univers de Portal. J'ai choisi de réaliser ce travail en Python
+                    avec la librairie PyGame. J'ai utilisé l'outil QtDesigner pour l'interface de l'utilisateur.
                 </h4>
                 <br>
+                <h4 class="text-left mx-5 texte"  style="padding-left: 2%; color:white; line-height: 140%;">
+                    Lien vers Github : <a style="text-decoration: none; color: white" href="https://github.com/Julien-degardin/Projet_S2"><h1 class="fab fa-github" style="margin-left: 2%"></h1></a>
+                </h4>
                 <br>
-                <br>
-                <br>
-                <br>
+                <h4 class="text-left mx-5"  style="padding-top: 2%; padding-left: 2%; color:white; line-height: 140%;text-align: center;">
+                    <div class="d-flex flex-row justify-content-around texte">Technologies utilisées :
+                        <div class="mr-2"><a style="text-decoration: none; color: white" href="https://www.python.org/"><h1 class="fa-2x fab fa-python" style="margin:0 !important;"></h1></a></div>
+                        <div class="mr-2"><a href="https://fr.wikipedia.org/wiki/PyQt">
+                            <img src="images/qt-logo.png" width="40px">
+                        </a>
+                        </div>
+                        <div><a href="https://www.pygame.org/news">
+                            <img src="images/Pygame.png" width="120px">
+                        </a>
+                        </div>
+                    </div>
+                </h4>
                 <br>
             </div>
         </div>
     </div>
     <div class="row" style="height: fit-content">
-        <div class="col-md-6" data-aos="flip-right" data-aos-duration="1000" style="padding: 0; height: fit-content">
-            <div class="mx-auto" style="margin: 0; background-color: dodgerblue">
-                <h2 class="text-center" style="padding-top: 3%; color:white;">Refonte d'une page du site de L'IUT</h2>
-                <h4 class="text-left"  style="padding-top: 2%; padding-left: 2%; margin-right: 5%; color:white;"> &emsp; &emsp; Pour notre projet d'Informatique et Sciences du Numérique, nous avons créé une armoire à produits
-                    chimiques sécurisée à l'aide d'un digicode.
+        <div class="col-md-6" style="padding: 0; height: fit-content">
+            <div class="mx-auto" data-aos="flip-right" data-aos-duration="1000" style="margin: -2% 0 0 0; background-color: dodgerblue">
+                <h2 class="text-center sous-titre" style="padding-top: 3%; color:white;">Marathon du Web</h2>
+                <h4 class="text-left mx-5 texte"  style="padding-top: 2%; padding-left: 2%; color:white; line-height: 140%;">
+                    Pour notre projet de fin de troisième semestre de DUT Informatique, nous avons dû imaginer et réaliser
+                    une ludothèque en ligne. Celle-ci devait permettre d'ajouter, noter, commenter et trier des jeux de société.
                 </h4>
                 <br>
                 <br>
+                <h4 class="text-left mx-5 texte"  style="padding-left: 2%; color:white; line-height: 140%;">
+                    Lien vers Github : <a style="text-decoration: none; color: white" href="https://github.com/Julien-degardin/Marathon"><h1 class="fab fa-github" style="margin-left: 2%"></h1></a>
+                </h4>
                 <br>
-                <br>
-                <br>
+                <h4 class="text-left mx-5"  style="padding-top: 2%; padding-left: 2%; color:white; line-height: 140%;text-align: center;">
+                    <div class="d-flex flex-row justify-content-around texte">Technologies utilisées :
+                        <div><a style="text-decoration: none; color: white" href="https://fr.wikipedia.org/wiki/HTML5"><h1 class="fab fa-html5" style="margin:0 !important;"></h1></a></div>
+                        <div><a style="text-decoration: none; color: white" href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"><h1 class="fab fa-css3-alt" style="margin:0 !important;"></h1></a></div>
+                        <div><a style="text-decoration: none; color: white" href="https://laravel.com/"><h1 class="fab fa-laravel" style="margin:0 !important;"></h1></a></div>
+                        <div><a style="text-decoration: none; color: white" href="https://git-scm.com/"><h1 class="fab fa-git" style="margin:0 !important;"></h1></a></div>
+                        <div><a style="text-decoration: none; color: white" href="https://bootstrap.com/"><h1 class="fab fa-bootstrap" style="margin:0 !important;"></h1></a></div>
+                    </div>
+                </h4>
                 <br>
             </div>
         </div>
 
         <div class="col-md-6" style="margin: 0; padding: 0; background-color: white">
-            <img src="images/siteweb.png" alt=" Projet Refonte" class="img-fluid" style="height: 302px;display: block;margin-left: auto;margin-right: auto">
+            <img src="images/marathon.png" alt="Projet Marathon" class="img-fluid" style="height: 422px">
         </div>
     </div>
 
     <div id="section5" style="background-color: white; height: 5vh"></div>
 
-    <div class="row mb-5" style="height: fit-content">
+    <div class="row mb-5" style="height: 85vh">
 
+        <div class="col-md-12" style="padding: 2% 0 0 0; height: 5vh">
+            <h1 class="text-center sous-titre">Mes documents</h1>
+            <hr class="light" style="border-color: black; width: 7%">
+        </div>
 
         <div class="mx-auto">
             <img id="monCV" src="images/CVimg.png" alt="CV" style="width:100%;max-width:300px">

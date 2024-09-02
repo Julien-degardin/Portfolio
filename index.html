@@ -1,55 +1,674 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleindex.css">
-    <link rel="icon" type="image/png" href="images/J.jpg" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="http://localhost:3002/dist/aos.css" /> -->
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
-
-    <meta charset="utf-8"/>
-
-    <title>Site en construction</title>
+	<meta charset="UTF-8"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="./assets/styles/style.css" rel="stylesheet"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>	<title>Portfolio | toto</title>
 </head>
 
-<body>
-    <div class="loader">
+<body class="bg-gradient-to-r from-slate-900 to-slate-700 text-zinc-100">
+<div
+		class="p-0 sm:p-4 w-full h-full lg:h-screen flex flex-col lg:flex-row justify-between text-zinc-100 font-lilex"
+>
+	<div class="flex flex-col justify-around lg:w-1/2 order-2 sm:order-1">
+		<h1
+				aria-label="Bienvenue sur mon portfolio !"
+				class="text-4xl sm:text-4xl lg:text-9xl"
+		>
+			<span class="typewriter thick"></span>
+		</h1>
+		<a
+				class="mt-6 lg:mt-0 place-self-center text-2xl sm:text-4xl w-max p-1.5 border-2 border-zinc-100 rounded-md transition-all duration-75 outline hover:outline-2 hover:outline-offset-4"
+				href="#timeline"
+				id="start-button"
+		>
+			Commencer la visite ↲
+		</a>
+	</div>
+	<div
+			aria-label="Bienvenue sur mon portfolio !"
+			class="mt-8 lg:mt-0 flex flex-col justify-center items-center text-3xl lg:w-1/3 lg:text-6xl gap-y-4 order-1 sm:order-2"
+	>
+		<img
+				class="rounded-full w-36 h-36 sm:w-60 sm:h-60 lg:max-w-[300px] lg:max-h-[300px]"
+				src="./assets/images/300.png"
+		/>
+		<div class="text-center mb-8 sm:mb-0">toto</div>
+	</div>
+</div>
+<div
+		class="w-full lg:w-5/6 xl:w-3/4 mx-auto py-12 px-2 sm:px-0"
+		id="timeline"
+>
+	<h2 class="text-4xl sm:text-5xl text-center mb-20 font-lilex">
+		Mon parcours
+	</h2>
+	<div
+			class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent"
+	>
+		<div
+				class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+		>
+			<div
+					class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+			>
+				<svg
+						class="fill-current"
+						height="10"
+						width="12"
+						xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+							d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
+							fill-rule="nonzero"
+					/>
+				</svg>
+			</div>
 
-    </div>
-    <div class="tout">
-        <span>
-            <h1 class="text-center">Veuillez choisir votre langue pour une expérience optimale</h1>
-            <div><a href="sitefr.html"><img class="drapeau" src="images/france.png"/></a><a class ="ml-5" href="siteen.html"><img class="drapeau" src="images/gb.png"/></a></div>
-            <h1 class="text-center">Please choose your language for a better experience</h1>
-        </span>
-           
-    </div>  
+			<div
+					class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white px-2 py-4 sm:p-4 rounded border border-slate-200 shadow"
+					data-aos="fade-up"
+					data-aos-duration="750"
+					data-aos-offset="175"
+			>
+				<div class="flex flex-col text-slate-900">
+					<div class="flex justify-between">
+						<p class="font-bold">Bac S Sciences de l'Ingénieur</p>
+						<p class="font-medium">2017-2019</p>
+					</div>
+					<p>Option Informatique - Section européenne - Mention Bien</p>
+				</div>
+				<div class="text-slate-500">Lycée Gambetta-Carnot Arras</div>
+			</div>
+		</div>
 
-</body>
+		<div
+				class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+		>
+			<div
+					class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+			>
+				<svg
+						class="fill-current"
+						height="10"
+						width="12"
+						xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+							d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
+							fill-rule="nonzero"
+					/>
+				</svg>
+			</div>
 
+			<div
+					class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+					data-aos="fade-up"
+					data-aos-duration="750"
+					data-aos-offset="175"
+			>
+				<div class="flex flex-col text-slate-900">
+					<div class="flex justify-between">
+						<p class="font-bold">DUT Informatique</p>
+						<p class="font-medium">2019-2021</p>
+					</div>
+					<p>Spécialisation Développement</p>
+				</div>
+				<div class="text-slate-500">
+					IUT de Lens - Stage : Mairie de Loos-en-Gohelle
+				</div>
+			</div>
+		</div>
+
+		<div
+				class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+		>
+			<div
+					class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+			>
+				<svg
+						class="fill-current"
+						height="10"
+						width="12"
+						xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+							d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
+							fill-rule="nonzero"
+					/>
+				</svg>
+			</div>
+
+			<div
+					class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+					data-aos="fade-up"
+					data-aos-duration="750"
+					data-aos-offset="175"
+			>
+				<div class="flex flex-col text-slate-900">
+					<div class="flex justify-between">
+						<p class="font-bold">Licence Professionnelle</p>
+						<p class="font-medium">2021-2022</p>
+					</div>
+					<p>
+						Développement Informatique et Outils Collaboratifs (DIOC) -
+						Major de promotion
+					</p>
+				</div>
+				<div class="text-slate-500">IUT de Lens - Alternance : Orcades</div>
+			</div>
+		</div>
+
+		<div
+				class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+		>
+			<div
+					class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-amber-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+			>
+				<svg
+						fill="none"
+						height="30px"
+						stroke="#ecfdf5"
+						viewBox="0 0 24 24"
+						width="30px"
+						xmlns="http://www.w3.org/2000/svg"
+				>
+					<g stroke-width="0"></g>
+					<g stroke-linecap="round" stroke-linejoin="round"></g>
+					<g>
+						<path
+								d="M12 2.99988V5.99988M12 20.9999V17.9999M4.20577 16.4999L6.80385 14.9999M21 11.9999H18M16.5 19.7941L15 17.196M3 11.9999H6M7.5 4.20565L9 6.80373M7.5 19.7941L9 17.196M19.7942 16.4999L17.1962 14.9999M4.20577 7.49988L6.80385 8.99988"
+								stroke="#ecfdf5"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+						></path>
+					</g>
+				</svg>
+			</div>
+
+			<div
+					class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+					data-aos="fade-up"
+					data-aos-duration="750"
+					data-aos-offset="175"
+			>
+				<div class="flex flex-col text-slate-900">
+					<div class="flex justify-between">
+						<p class="font-bold">Mastère spécialisé</p>
+						<p class="font-medium">2022-2024</p>
+					</div>
+					<p>Management de Projet Web Digital - Spécialité Développement</p>
+				</div>
+				<div class="text-slate-500">
+					Campus Eductive Liberté (EFFICOM Lille) - Alternance : Orcades
+				</div>
+			</div>
+		</div>
+
+		<div
+				class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
+		>
+			<div
+					class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+			>
+				<svg
+						fill="#000000"
+						height="30px"
+						viewBox="0 0 24 24"
+						width="30px"
+						xmlns="http://www.w3.org/2000/svg"
+				>
+					<g stroke-width="0"></g>
+					<g stroke-linecap="round" stroke-linejoin="round"></g>
+					<g>
+						<path
+								d="M12.5 20.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1zm3.04-8.309c1.166-1.266 2.372-2.576 2.372-4.851 0-3.903-3.655-5.358-5.96-5.358-2.323 0-6.01 1.543-6.01 5.686h1c0-3.825 3.71-4.686 5.01-4.686 1.38 0 4.96.783 4.96 4.358 0 1.885-.976 2.946-2.108 4.174-1.334 1.449-2.847 3.091-2.847 6.34h1c0-2.859 1.313-4.284 2.582-5.663z"
+						></path>
+						<path d="M0 0h24v24H0z" fill="none"></path>
+					</g>
+				</svg>
+			</div>
+
+			<div
+					class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+					data-aos="fade-up"
+					data-aos-duration="750"
+					data-aos-offset="175"
+			>
+				<div class="flex flex-col text-slate-900">
+					<div class="flex justify-between">
+						<p class="font-bold">Développeur Full-stack</p>
+						<p class="font-medium">01/10/2024 - ?</p>
+					</div>
+				</div>
+				<div class="text-slate-500">Dans votre entreprise ?</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="w-full lg:w-5/6 xl:w-3/4 mx-auto pt-16 pb-8">
+	<h2 class="text-3xl sm:text-5xl text-center font-lilex pb-20">
+		Mes compétences techniques
+	</h2>
+	<div
+			class="flex flex-col sm:flex-row justify-evenly gap-8 h-auto sm:h-72 p-4 sm:p-0"
+	>
+		<div
+				class="relative w-full sm:w-1/3 max-w-full bg-sky-600 rounded-lg shadow-lg p-4 mt-8 sm:mt-0"
+		>
+			<div
+					class="absolute top-0 left-0 transform -translate-y-1/2 bg-sky-600 py-2 px-4 rounded-t-lg flex justify-center items-center text-2xl font-bold"
+			>
+				Back-end
+			</div>
+			<div
+					class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-6 justify-items-center py-4"
+			>
+				<img
+						alt="Laravel"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/laravel.png"
+				/>
+				<img
+						alt="Symfony"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/symfony.png"
+				/>
+				<img
+						alt="ExpressJS"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/Expressjs.png"
+				/>
+				<img
+						alt="Django"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/django.png"
+				/>
+				<img
+						alt="PHP"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/php.png"
+				/>
+				<img
+						alt="SQL"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/sql.png"
+				/>
+			</div>
+		</div>
+		<div
+				class="relative w-full sm:w-1/3 max-w-full bg-sky-600 rounded-lg shadow-lg p-4 mt-8 sm:mt-0"
+		>
+			<div
+					class="absolute top-0 left-0 transform -translate-y-1/2 bg-sky-600 py-2 px-4 rounded-t-lg flex justify-center items-center text-2xl font-bold"
+			>
+				Front-end
+			</div>
+			<div
+					class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-6 justify-items-center py-4"
+			>
+				<img
+						alt="VueJS"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/vuejs.png"
+				/>
+				<img
+						alt="Angular"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/angular.png"
+				/>
+				<img
+						alt="TailwindCSS"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/tailwind.png"
+				/>
+				<img
+						alt="HTML5"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/html.png"
+				/>
+				<img
+						alt="CSS3"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/css.png"
+				/>
+				<img
+						alt="JavaScript"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/javascript.png"
+				/>
+			</div>
+		</div>
+		<div
+				class="relative w-full sm:w-1/3 max-w-full bg-sky-600 rounded-lg shadow-lg p-4 mt-8 sm:mt-0"
+		>
+			<div
+					class="absolute top-0 left-0 transform -translate-y-1/2 bg-sky-600 py-2 px-4 rounded-t-lg flex justify-center items-center text-2xl font-bold"
+			>
+				Auxiliaires
+			</div>
+			<div
+					class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-6 justify-items-center py-4"
+			>
+				<img
+						alt="Flutter"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/flutter.png"
+				/>
+				<img
+						alt="Git"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/git.png"
+				/>
+				<img
+						alt="Linux"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/linux.png"
+				/>
+				<img
+						alt="Figma"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/figma.png"
+				/>
+				<img
+						alt="Canva"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/canva.png"
+				/>
+				<img
+						alt="Trello"
+						class="w-20 h-20 object-contain"
+						src="./assets/images/trello.png"
+				/>
+			</div>
+		</div>
+	</div>
+
+	<h2 class="text-3xl sm:text-5xl text-center font-lilex py-16">
+		Mes qualités personnelles
+	</h2>
+
+	<div class="flex flex-wrap gap-4 w-full mx-auto justify-center px-3">
+		<div class="w-full sm:w-2/5 md:w-1/4 lg:w-1/5 rounded-md border-2 border-zinc-300 shadow-xl flex flex-col p-3 items-center justify-center bg-slate-800 gap-2">
+			<div class="px-3 py-3 bg-sky-600 p-1 rounded-full">
+				<svg fill="#FFF" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+				width="30px" height="30px" viewBox="0 0 31.637 31.637"
+				xml:space="preserve">
+					<g>
+						<g>
+							<circle cx="7.676" cy="7.067" r="0.827"/>
+							<path d="M21.841,4.244c-4-1.012-7.198-0.758-11.431,1.771c-0.097-0.924-2.53-3.697-5.497-1.75
+								C1.751,3.874,1.751,7.134,1.751,7.134S0.023,10.173,0,11.318c-0.016,0.766,0.446,0.973,0.888,1.105
+								c2.285-1.301,4.359-0.992,6.044-0.74c0.878,0.131,1.639,0.242,2.208,0.082c0.197-0.057,0.404,0.06,0.46,0.258
+								c0.056,0.197-0.06,0.404-0.257,0.461c-0.724,0.203-1.557,0.08-2.521-0.064c-1.508-0.225-3.35-0.486-5.328,0.535
+								c1.878,3.272,7.082,4.382,10.862,1.769c0.825,0.052,1.907,0.175,3.074,0.271c0.215,0.017,0.004,0.697-0.205,1.375
+								c-0.073,0.236-2.863,0.82-2.918,1.027c-0.101,0.389,2.537,0.072,2.725,0.341c0.187,0.271-0.34,1.509-0.097,2.094
+								c0.162,0.389,1.48-0.011,1.849-0.926c0.186-0.456-0.593-1.359-0.42-1.722c0.52-1.083,0.974-2.073,1.055-2.071
+								c0.541,0.017,1.08,0.018,1.604-0.007c1.092-0.05,2.146-0.152,3.122-0.237c0.124-0.011,0.332,0.425,0.552,0.933
+								c0.1,0.232-1.828,0.584-1.729,0.812c0.203,0.466,1.897,0.152,2.529,0.734c0.633,0.584,0.653,2.156,1.119,2.336
+								c0.257,0.099,1.334-0.674,1.119-1.654c-0.314-1.43-2.036-3.274-1.946-3.278c1.195-0.055,2.188,0.002,2.87,0.355
+								c2.53,1.309,0.682,11.047-5.643,11.535c-3.445,0.265-4.596-2.491-4.168-4.028c0.423-1.519,2.319-2.345,3.634-2.148
+								c1.312,0.192,1.556,1.41,0.973,2.235c-0.077,0.109-0.166,0.21-0.261,0.304c-0.226-0.229-0.538-0.371-0.884-0.371
+								c-0.687,0-1.242,0.557-1.242,1.242c0,0.687,0.556,1.241,1.242,1.241c0.62,0,1.13-0.455,1.223-1.052
+								c0.334-0.083,0.664-0.245,0.944-0.536c1.118-1.168,0.875-3.26-1.244-3.978c-2.371-0.802-5.694,0.688-5.792,3.218
+								c-0.097,2.529,2.224,5.496,6.221,5.268c5.935-0.342,10.204-6.504,9.965-12.192C31.421,11.026,28.847,6.015,21.841,4.244z
+									M6.922,9.713c-1.33,0-2.408-1.078-2.408-2.408c0-1.33,1.078-2.408,2.408-2.408c1.329,0,2.407,1.078,2.407,2.408
+								C9.33,8.635,8.252,9.713,6.922,9.713z"/>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div class="text-white font-bold text-xl">
+				Adaptabilité
+			</div>
+		</div>
+		<div class="w-full sm:w-2/5 md:w-1/4 lg:w-1/5 rounded-md border-2 border-zinc-300 shadow-xl flex flex-col p-3 items-center justify-center bg-slate-800 gap-2">
+			<div class="px-3.5 py-3 bg-sky-600 p-1 rounded-full">
+				<i class="fa fa-hand-fist fa-xl"></i>
+			</div>
+			<div class="text-white font-bold text-xl">
+				Rigueur
+			</div>
+		</div>
+		<div class="w-full sm:w-2/5 md:w-1/4 lg:w-1/5 rounded-md border-2 border-zinc-300 shadow-xl flex flex-col p-3 items-center justify-center bg-slate-800 gap-2">
+			<div class="px-3.5 py-3 bg-sky-600 p-1 rounded-full">
+				<i class="fa-solid fa-people-carry-box"></i>
+			</div>
+			<div class="text-white font-bold text-xl">
+				Esprit d'équipe
+			</div>
+		</div>
+		<div class="w-full sm:w-2/5 md:w-1/4 lg:w-1/5 rounded-md border-2 border-zinc-300 shadow-xl flex flex-col p-3 items-center justify-center bg-slate-800 gap-2">
+			<div class="px-3.5 py-3 bg-sky-600 p-1 rounded-full">
+				<i class="fa-solid fa-arrows-to-eye"></i>
+			</div>
+			<div class="text-white font-bold text-xl">
+				Curiosité
+			</div>
+		</div>
+	</div>
+
+	<h2 class="text-3xl sm:text-4xl md:text-5xl text-center font-lilex py-8 sm:py-12 md:py-16">
+		Quelques projets
+	</h2>
+	
+	<div class="flex flex-col sm:flex-row sm:flex-wrap justify-evenly gap-6 px-4 sm:px-6 md:px-0">
+		<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 rounded overflow-hidden shadow-lg flex flex-col">
+			<div class="relative">
+				<img class="w-full"
+						src="./assets/images/inventaire.png"
+						alt="Logiciel interne type ERP et application mobile">
+				<div
+						class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+				</div>
+			</div>
+			<div class="px-4 sm:px-6 py-4 bg-gray-100 flex-grow">
+				<p class="font-medium text-lg inline-block text-sky-600 transition duration-500 ease-in-out mb-2">
+					Logiciel interne type ERP et application mobile
+				</p>
+				<p class="text-gray-500 text-sm">
+					Gestion des stocks, des véhicules et des trajets des techniciens via une application mobile.
+				</p>
+			</div>
+			<div class="px-4 sm:px-6 py-3 flex flex-row items-center bg-gray-100">
+				<i class="fa-solid fa-screwdriver-wrench fa-xl mr-2 text-slate-800"></i>
+				<div class="inline-flex gap-2 flex-wrap">
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">FilamentPHP</span>
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">API Laravel</span>
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">Flutter</span>
+				</div>
+			</div>
+		</div>
+	
+		<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 rounded overflow-hidden shadow-lg flex flex-col">
+			<div class="relative">
+				<img class="w-full brightness-125"
+						src="./assets/images/dynasign.jpg"
+						alt="DynaSign by Orcades">
+				<div
+						class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+				</div>
+			</div>
+			<div class="px-4 sm:px-6 py-4 bg-gray-100 flex-grow">
+				<p class="font-medium text-lg inline-block text-sky-600 transition duration-500 ease-in-out mb-2">
+					DynaSign by Orcades, affichage dynamique
+				</p>
+				<p class="text-gray-500 text-sm">
+					Solution d'affichage pour les professionnels avec gestion à distance via un panel.
+				</p>
+			</div>
+			<div class="px-4 sm:px-6 py-3 flex flex-row items-center bg-gray-100">
+				<i class="fa-solid fa-screwdriver-wrench fa-xl mr-2 text-slate-800"></i>
+				<div class="inline-flex gap-2 flex-wrap">
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">EasyAdmin</span>
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">Symfony</span>
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">TailwindCSS</span>
+				</div>
+			</div>
+		</div>
+	
+		<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 rounded overflow-hidden shadow-lg flex flex-col">
+			<div class="relative">
+				<img class="w-full"
+						src="./assets/images/code.jpg"
+						alt="Sunset in the mountains">
+				<div
+						class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+				</div>
+			</div>
+			<div class="px-4 sm:px-6 py-4 bg-gray-100 flex-grow">
+				<p class="font-medium text-lg inline-block text-sky-600 transition duration-500 ease-in-out mb-2">
+					Ajout d'une fonctionnalité sur un logiciel existant
+				</p>
+				<p class="text-gray-500 text-sm">
+					Analyse de code existant, regroupement d'informations et génération de PDFs.
+				</p>
+			</div>
+			<div class="px-4 sm:px-6 py-3 flex flex-row items-center bg-gray-100">
+				<i class="fa-solid fa-screwdriver-wrench fa-xl mr-2 text-slate-800"></i>
+				<div class="inline-flex gap-2 flex-wrap">
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">Angular</span>
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">Java</span>
+					<span class="inline-flex px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-sky-600 rounded">JasperSoft</span>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+
+	<h2 class="text-3xl sm:text-5xl text-center font-lilex py-16">
+		Mes documents
+	</h2>
+
+	<div class="flex items-center justify-center px-4">
+		<img
+				alt="Mon CV"
+				class="w-full sm:w-[350px] cursor-pointer hover:opacity-75"
+				onclick="openModal()"
+				src="assets/images/CVimg.png"
+		/>
+
+		<div
+				class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50"
+				id="imageModal"
+				onclick="closeModal(event)"
+		>
+			<div
+					class="bg-white rounded-lg shadow-lg p-6 max-w-xl w-full relative"
+					id="divCachee"
+			>
+				<button
+						class="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+						onclick="closeModal()"
+				>
+					&times;
+				</button>
+
+				<img
+						alt="CV agrandi"
+						class="h-auto mb-4"
+						src="assets/images/CVimg.png"
+				/>
+
+				<div class="flex justify-end">
+					<a
+							class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+							download="CV_Julien_DEGARDIN.pdf"
+							href="assets/images/CV.pdf"
+							id="downloadLink"
+							target="_blank"
+					>Télécharger</a
+					>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h2 class="text-3xl sm:text-5xl text-center font-lilex pt-16 pb-8">
+		Mon profil vous intéresse ?
+	</h2>
+	<div class="flex justify-center">
+		<a
+				class="mx-auto text-2xl sm:text-4xl w-max p-1.5 border-2 border-zinc-100 rounded-md transition-all duration-75 outline hover:outline-2 hover:outline-offset-4"
+				href="mailto:degardin.julien@outlook.com"
+		>
+			Contactez-moi !
+		</a>
+	</div>
+	<div class="w-1/3 mx-auto flex justify-around pt-8">
+		<a
+				class="fb-ic hover:scale-125 transition-all"
+				href="https://www.facebook.com/profile.php?id=100009310369690"
+				target="_blank"
+		>
+			<i
+					class="fab fa-facebook-f fa-lg mr-md-5 mr-3 fa-2x"
+					style="color: white"
+			></i>
+		</a>
+
+		<a
+				class="li-ic hover:scale-125 transition-all"
+				href="https://www.linkedin.com/in/julien-d%C3%A9gardin-b798631b9/"
+				target="_blank"
+		>
+			<i
+					class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
+					style="color: white"
+			>
+			</i>
+		</a>
+
+		<a
+				class="ins-ic hover:scale-125 transition-all"
+				href="https://www.instagram.com/user_inactif/"
+				target="_blank"
+		>
+			<i
+					class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"
+					style="color: white"
+			>
+			</i>
+		</a>
+
+		<a
+				class="git-ic hover:scale-125 transition-all"
+				href="https://github.com/Julien-degardin"
+				target="_blank"
+		>
+			<i class="fab fa-github fa-lg white-text fa-2x" style="color: white">
+			</i>
+		</a>
+	</div>
+</div>
+<footer
+		class="text-md text-white text-center border-t-2 border-gray-400 inset-x-0 bottom-0 py-2"
+>
+	© 2024 Copyright
+</footer>
 <script>
-    setTimeout(function () {
+    AOS.init();
 
-        let loader = document.querySelector('.loader')
-        loader.style.height = "300vh"
-        loader.style.width = "300vw"
-        loader.style.top = "-100vh"
-        loader.style.left = "-100vw"
-        loader.style.opacity = 1
-    }, 1)
+    function openModal() {
+        document.getElementById("imageModal").classList.remove("hidden");
+    }
 
-
+    // Fermer la modale
+    function closeModal(event) {
+        const modal = document.getElementById("imageModal");
+        const modalContent = modal.querySelector("#divCachee");
+        // Fermer la modale si le clic est en dehors du contenu ou sur le bouton close
+        if (event.target === modal || event.target.closest("button")) {
+            modal.classList.add("hidden");
+        }
+    }
 </script>
+</body>
 </html>

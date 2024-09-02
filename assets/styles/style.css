@@ -1,0 +1,102 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Lilex";
+  src: url(../fonts/Lilex/ttf/Lilex-Thin.ttf);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lilex";
+  src: url(../fonts/Lilex/ttf/Lilex-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lilex";
+  src: url(../fonts/Lilex/ttf/Lilex-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Typewriter effect 1 */
+@keyframes typing {
+    0.0000% { content: ""; }
+    4.1667% { content: "B"; }
+    8.3333% { content: "Bi"; }
+    12.5000% { content: "Bie"; }
+    16.6667% { content: "Bien"; }
+    20.8333% { content: "Bienv"; }
+    25.0000% { content: "Bienve"; }
+    29.1667% { content: "Bienven"; }
+    33.3333% { content: "Bienvenue"; }
+    37.5000% { content: "Bienvenue s"; }
+    41.6667% { content: "Bienvenue su"; }
+    45.8333% { content: "Bienvenue sur"; }
+    50.0000% { content: "Bienvenue sur m"; }
+    54.1667% { content: "Bienvenue sur mo"; }
+    58.3333% { content: "Bienvenue sur mon"; }
+    62.5000% { content: "Bienvenue sur mon p"; }
+    66.6667% { content: "Bienvenue sur mon po"; }
+    70.8333% { content: "Bienvenue sur mon por"; }
+    75.0000% { content: "Bienvenue sur mon port"; }
+    79.1667% { content: "Bienvenue sur mon portf"; }
+    83.3333% { content: "Bienvenue sur mon portfo"; }
+    87.5000% { content: "Bienvenue sur mon portfol"; }
+    91.6667% { content: "Bienvenue sur mon portfoli"; }
+    100% { content: "Bienvenue sur mon portfolio !"; }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 4s forwards;
+}
+
+.typewriter::after {
+  content: "";
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+/* Bouton initialement invisible */
+#start-button {
+  opacity: 0;
+  animation: showButton 0.5s forwards;
+  animation-delay: 4.5s; /* Retarde l'animation de 4 secondes */
+}
+
+.font-lilex {
+  font-family: 'Lilex';
+}
+
+/* Définir l'animation */
+@keyframes showButton {
+  to {
+      opacity: 1;
+  }
+}
